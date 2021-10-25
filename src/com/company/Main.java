@@ -3,6 +3,8 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+        var theBank = new Bank();
+        theBank.doBanking();
         var Account = new BankAccount();
         var Account2 = new BankAccount(10000, 0.05f);
         Account.deposit(1000);
